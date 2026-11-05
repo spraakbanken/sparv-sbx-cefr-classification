@@ -1,13 +1,18 @@
 [project]
-name = "sparv-sbx-uppercase"
+name = "sparv-sbx-cefr-classification"
 version = "0.1.0"
-description = "Uppercase converter (example plug-in for Sparv)"
+description = "CEFR level classification tool"
 readme = "README.md"
-license = "MIT"
+license.text = "MIT License"
 # authors = [
-#     { name = "", email = "" }
+#     { name = "Ricardo Muñoz Sánchez", email = "ricardo.munoz.sanchez@gu.se" }
 # ]
 dependencies = [
-    "sparv~=5.0"
+    "sparv-pipeline~=5.0",
+    "accelerate>=1.15.0",
+    "datasets>=5.1.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "transformers>=5.22.1"
 ]
-entry-points."sparv.plugin" = { sbx_uppercase = "sbx_uppercase" }
+entry-points."sparv.plugin" = { sbx_cefr_classification = "sbx_cefr_classification" }
