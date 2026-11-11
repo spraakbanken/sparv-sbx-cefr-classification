@@ -1,6 +1,6 @@
 # sparv-sbx-cefr-classification 
 
-A plugin for [Sparv](https://spraakbanken.gu.se/sparv/) for classifying language learner texts.
+A plugin for [Sparv](https://spraakbanken.gu.se/sparv/) for classifying language learner texts into CEFR levels.
 The plugin accepts the following languages at the moment:
  - Swedish
  - Estonian
